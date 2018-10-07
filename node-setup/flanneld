@@ -1,0 +1,4 @@
+FLANNEL_ETCD="http://kube-master:2379"
+#FLANNEL_ETCD_PREFIX="/kube-centos/network"
+FLANNEL_OPTIONS="--iface=eth0" 
+FLANNEL_ETCD_KEY="/kube-centos/network"
